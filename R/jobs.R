@@ -13,3 +13,7 @@ DkubeServing <- function(user = NULL, name = NULL, description = NULL){
   serving <- dkube$sdk$rsrcs$DkubeServing(user, name=name, description=description)
 }
 
+#' @export
+DkubeIDE <- function(user = NULL, name = NULL, description = NULL){
+  serving <- dkube$sdk$rsrcs$DkubeIDE(user, name=name, description=description)
+}

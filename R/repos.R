@@ -12,3 +12,13 @@ DkubeDataset <- function(user = NULL, name = NULL){
 DkubeModel <- function(user = NULL, name = NULL){
   model <- dkube$sdk$rsrcs$DkubeModel(user, name = name)
 }
+
+#' @export
+DkubeProject <- function(user = NULL, name = NULL){
+  model <- dkube$sdk$rsrcs$DkubeProject(user, name = name)
+}
+
+#' @export
+DkubeFeatureSet <- function(user = NULL, name = NULL){
+  model <- dkube$sdk$rsrcs$DkubeFeatureSet(user, name = name)
+}
