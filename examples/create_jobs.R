@@ -1,5 +1,4 @@
 library("dkubeR")
-dkube <- import("dkube")
 
 user <- Sys.getenv("LOGNAME")
 token <- Sys.getenv("DKUBE_USER_ACCESS_TOKEN")
